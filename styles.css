@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 } 
 
@@ -35,6 +36,7 @@
 
     font-size: xx-large;
     margin-right: 5px;
+    
 }
 
 .iconsrightbox{
@@ -42,6 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center
+    
 }
 
 .headericonsright {
@@ -83,14 +86,15 @@ height: 100%;
     padding: 5px;
     padding-bottom: 1px;
    
-
 }
  
 i {
     
     margin: 1px;
     padding: 1px;
+    
     }
+
 
 
 .icons {
@@ -126,4 +130,21 @@ i {
    h4  {
     font-family: "roboto";
    }
+ 
+   .headericonsleft i:hover {
+    color: #380ef3; 
+    transform: scale(1.2);
+    transition: transform 0.3s ease, color 0.3s ease; 
+  }
 
+  .iconsleft i {
+  color: #000; 
+  transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.iconsleft i:hover {
+  color: #ff6666; 
+  transform: scale(1.2); 
+}
+
+  
